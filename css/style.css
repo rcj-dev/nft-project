@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    background-color: #FCFDF2;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, input{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    font-size: 1rem;
+    color: #171717;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #EF32D9;
+}
+
+/*-------------------------------------------------------------*/
+
+main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 48px 128px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+}
+
+nav ul li input{
+    width: 238px;
+    height: 59px;
+    font-size: 1rem;
+    border: 3px solid #EF32D9;
+    border-radius: 50px;
+    background-color: #00000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+main section{
+    width: 100%;
+    height: 683px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main section aside{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+    height: 350px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.50rem;
+    background: linear-gradient(90deg, #EF32D9 0%, #89FFFD 148.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 64px;
+}
+
+h5{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(23, 23, 23, 0.75);
+}
+
+aside button{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #F2F3F2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    width: 300px;
+    height: 80px;
+    background: linear-gradient(90deg, #EF32D9 0%, #89FFFD 125.6%);
+    border-radius: 50px;
+}
+
+section figure{
+    width: 700px;
+}
+
+/*------------------------------------------------*/
+
+#NFTs{
+    width: 100%;
+    height: 100vh;
+    margin-top: 200px;
+    padding: 0 128px;
+}
+
+#NFTs nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#NFTs h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #171717;
+}
+
+#NFTs ul{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#NFTs ul li button{
+    font-weight: 600;
+    font-size: 18px;
+    color: #171717;
+    padding: 8px 16px;
+    background-color: #00000000;
+    border-radius: 50px;
+    border: 1px solid #17171780;
+}
+
+#NFTs ul li button#press{
+    background: #EF32D9;
+    border: none;
+    color: #F2F3F2;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 64px;
+}
+
+#cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 352px;
+    height: 467px;
+    background: #F2F3F2;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.card #rosa,
+.card #verde,
+.card #marrom{
+    width: 304px;
+    height: 240px;
+    margin: 24px 24px 16px 24px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#rosa{
+    background-color: #EF32D9;
+    align-items: end;
+}
+
+#verde{
+    background-color: #B4E931;
+    position: relative;
+}
+
+#verde img{
+    position: absolute;
+    bottom: 10px;
+}
+
+#marrom{
+    background-color: #CAA490;
+}
+
+#marrom img{
+    scale: 90%;
+}
+
+.creator{
+    display: flex;
+    gap: 8px;
+    width:300px;
+    margin-left: 24px;
+}
+
+.creator div h6{
+    font-weight: 600;
+    font-size: 18px;
+    color: #171717;;
+}
+
+.creator div span{
+    font-weight: 500;
+    font-size: 12px;
+    color: #171717bf;
+}
+
+.info{
+    width: 304px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 24px 27px 24px;
+    justify-content: center;
+}
+
+.info div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.negrito{
+    font-weight: 500;
+    font-size: 15px;
+    color: #171717;
+    margin-left: 11px;
+}
+
+.clarinho{
+    font-weight: 500;
+    font-size: 15px;
+    color: #17171780;
+}
+
+.card button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 16px;
+    width: 304px;
+    height: 56px;
+    background: linear-gradient(90deg, #EF32D9 0%, #89FFFD 120.3%);
+    border-radius: 50px;
+    color: #F2F3F2;
+    font-weight: 600;
+    font-size: 15px;
+}
